@@ -114,6 +114,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "FactoryMethodPattern.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/FactoryMethodPattern.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/FactoryMethodPattern.Domain.dll": {}
+        }
       }
     }
   },
@@ -539,10 +549,16 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "FactoryMethodPattern.Domain/1.0.0": {
+      "type": "project",
+      "path": "FactoryMethodPattern.Domain/FactoryMethodPattern.Domain.csproj",
+      "msbuildProject": "FactoryMethodPattern.Domain/FactoryMethodPattern.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "FactoryMethodPattern.Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.18.1",
       "Swashbuckle.AspNetCore >= 6.4.0"
@@ -580,7 +596,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.Domain\\FactoryMethodPattern.Domain.csproj": {
+              "projectPath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.Domain\\FactoryMethodPattern.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
