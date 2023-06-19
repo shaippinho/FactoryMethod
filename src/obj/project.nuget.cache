@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gn1RnQeXRc8rlbwIJLTEsb9cKPLi4c5MTrRaXwUnKh/HZTmG9rOVzzggVjA0XGnbxYsy6eoc4sKjjG1fgl/mfw==",
+  "dgSpecHash": "B4BheYfYuqyfcbHgVXMC+A6csyZ5BArCUkEU8iU3DyF7xWfV1+hh4P/ENqU6gnaZ/ozCdzDUSqq5hGMzAdhzTA==",
   "success": true,
-  "projectFilePath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj",
+  "projectFilePath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\s.pardo.do.pinho\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
     "C:\\Users\\s.pardo.do.pinho\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

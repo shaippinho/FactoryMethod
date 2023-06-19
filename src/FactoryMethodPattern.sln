@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern", "FactoryMethodPattern.csproj", "{AF7BD7A5-5578-4219-A042-D923DA2377E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethodPattern", "FactoryMethodPattern.csproj", "{AF7BD7A5-5578-4219-A042-D923DA2377E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{1D2AF2C2-EFB4-415A-9906-7BE4BE003CC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{296DCA80-13C7-4398-AD67-881B2EE98179}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infrastructure", "2 - Infrastructure", "{C8873A36-2FBF-43D2-AB12-582C6B99CCA6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Tests", "3 - Tests", "{EBC4F75E-8E19-4650-8C6D-17C55B250D3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethodPattern.Domain", "FactoryMethodPattern.Domain\FactoryMethodPattern.Domain.csproj", "{0C8F009B-9FE6-4C22-B35B-38980FB51F2D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +25,17 @@ Global
 		{AF7BD7A5-5578-4219-A042-D923DA2377E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF7BD7A5-5578-4219-A042-D923DA2377E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF7BD7A5-5578-4219-A042-D923DA2377E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C8F009B-9FE6-4C22-B35B-38980FB51F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C8F009B-9FE6-4C22-B35B-38980FB51F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C8F009B-9FE6-4C22-B35B-38980FB51F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C8F009B-9FE6-4C22-B35B-38980FB51F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF7BD7A5-5578-4219-A042-D923DA2377E3} = {1D2AF2C2-EFB4-415A-9906-7BE4BE003CC3}
+		{0C8F009B-9FE6-4C22-B35B-38980FB51F2D} = {296DCA80-13C7-4398-AD67-881B2EE98179}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D5F35E34-01D3-438E-86C6-315D471EE7CB}

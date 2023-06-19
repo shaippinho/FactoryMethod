@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj": {}
+    "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.csproj": {}
   },
   "projects": {
-    "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj": {
+    "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj",
+        "projectUniqueName": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.csproj",
         "projectName": "FactoryMethodPattern",
-        "projectPath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\FactoryMethodPattern.csproj",
+        "projectPath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern.csproj",
         "packagesPath": "C:\\Users\\s.pardo.do.pinho\\.nuget\\packages\\",
-        "outputPath": "C:\\Work\\Estudos\\FactoryMethod\\src\\FactoryMethodPattern\\obj\\",
+        "outputPath": "C:\\Work\\Estudos\\FactoryMethod\\src\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
